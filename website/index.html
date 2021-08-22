@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!--Bootstrap 4.5 CSS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!--Bootstrap 4.5 JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        
+        <!--jQuery 3.3.1-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="styles.js"></script>
+
+        <title>DisimplifyBot</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md fixed-top">
+            <a class="navbar-brand" href="/">
+                <span>
+                   DisimplifyBot
+                    <img id="logo" src="bot-logo.png">
+                </span>
+            </a>
+            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon">
+                    <div id="hamburger-icon"></div>
+                    <div id="hamburger-icon"></div>
+                    <div id="hamburger-icon"></div>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">  
+                <ul class="navbar-nav mr-auto mt-2">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/demo.html">Demo</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="index-intro">
+            <div class="feature-container">
+                <h1 class="feature-header">
+                    DisimplifyBot
+                </h1>
+                <p class="feature-description">
+                    A range of features to make <a id="index-discord-link" href="https://discord.com/">Discord</a> more accessible.
+                </p>
+            </div>
+                
+            <form class="scroll-btn" action="#section2">
+                <button class="btn btn-primary">Features</button>
+            </form>
+            
+        </section>
+
+        <section id="section2">
+            <div class="feature-container">
+                <h2 class="feature-header">Live Image Captioning</h2>
+                <p class="feature-description">Automatically generate descriptions for images uploaded to Discord.</p>
+            </div>
+            
+            <form class="scroll-btn" action="#section3">
+                <button class="btn btn-primary">Scroll</button>
+            </form>
+        </section>
+
+        <section id="section3">
+            <div class="feature-container">
+                <h2 class="feature-header">Text to Speech (TTS)</h2>
+                <p class="feature-description">Turn Discord messages into audio files.</p>
+            </div>
+            
+            <form class="scroll-btn" action="#section4">
+                <button class="btn btn-primary">Scroll</button>
+            </form>
+        </section>
+
+        <section id="section4">
+            <div class="feature-container">
+                <h2 class="feature-header">Live Translation</h2>
+                <p class="feature-description">Real-time text translation for 108+ languages.</p>
+            </div>
+            
+            <form class="scroll-btn" action="#section5">
+                <button class="btn btn-primary">Scroll</button>
+            </form>
+        </section>
+
+
+        <section id="section5">
+            <div class="feature-container">
+                <h2 class="feature-header">Live Transcription</h2>
+                <p class="feature-description">Automatically generate trasncripts for voice channel conversations.</p>
+            </div>
+
+            <form class="scroll-btn" action="#index-intro">
+                <button class="btn btn-primary">Back to Top</button>
+            </form>
+        </section>
+
+    </body>
+</html>

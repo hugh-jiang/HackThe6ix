@@ -1,0 +1,178 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: black;
+  /*background-color:	#282828;*/
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+nav .navbar-brand
+{
+  font-size: 30px;
+  color: white;
+}
+
+#logo {
+  height: 4vh;
+}
+
+.burple {
+  color: #6832e3;
+}
+
+#hamburger-icon {
+  height: 0.5vh;
+  width: auto;
+  background-color: white;
+  margin: 6px 0;
+  border-radius: 15px;
+}
+
+/* Index */
+#index-intro {
+  text-align: center;
+  height: 100vh;
+  padding-top: 30vh;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(168,79,252,1) 59%, rgba(233,70,252,1) 100%); 
+  color: white;
+}
+
+#index-title {
+  font-size: 80px;
+}
+
+#index-description {
+  font-size: 20px;
+}
+
+.scroll-btn {
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+}
+
+#index-scroll-link {
+  text-decoration: none;
+}
+
+.btn {
+  color: white;
+}
+
+.bi-tools {
+  height: 90px;
+  width: auto;
+}
+
+#index-discord-link {
+  color: white;
+  text-decoration: none;
+}
+
+#section2 {
+  background-image: url("books.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  padding-top: 30vh;
+  color: white;
+}
+
+#section3 {
+  background-image: url("microphone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding-top: 30vh;
+  color: white;
+}
+
+#section4 {
+  background-image: url("globe.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding-top: 30vh;
+  color: white;
+}
+
+#section5 {
+  background-image: url("typewriter.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  padding-top: 30vh;
+  color: white;
+}
+
+.feature-cotainer {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.feature-header {
+  font-size: 10vh;
+}
+
+.feature-description {
+  font-size: 3vh;
+}
+
+
+/* Demo */
+#demo-div {
+  height: 100vh;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  text-align: center;
+  color: white;
+}
+
+#demo-head {
+  padding-top: 20vh;
+  font-size: 7vh;
+}
+
+#demo-vid {
+  margin-top: 5vh;
+  height: 55vh;
+  width: 50vw;
+  border: none;
+  border-radius: 5px;
+}
+
+/* About */
+#about-div {
+  height: 100vh;
+  padding-top: 15vh;
+  background: #E8CBC0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  color: white;
+}
+
+#about-names {
+  margin-top: 15vh;
+}
+
+.about-name {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.profile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
