@@ -20,5 +20,5 @@ To run the Python portion of the Bot, run "python3 bot.py" from the root directo
 
 To run the Node JS portion of the Bot, run "npm start" from the root directory.
 
-#Hackthe6ix Project Finalists
+#Hackthe6ix Project Finalists Top 5
 
